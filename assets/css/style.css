@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Special+Elite&display=swap");
+
+:root {
+  --color-body: #b6cbce;
+  --color-heading: #eef3db;
+  --color-base: #033f47;
+  --color-base2: #022a30;
+  --color-brand: blue;
+  --color-brand2: darkblue;
+  --sidebar-width: 240px;
+  --font-base: "Montserrat";
+}
+body {
+  background-color: var(--color-base2);
+  color: var(--color-body);
+  font-family: var(--font-base), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-heading);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-body);
+  transition: all 0.4s ease;
+}
+a:hover {
+  color: var(--color-brand);
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+.jumbotron {
+  padding-left: 120px;
+}
+
+p,
+.lead,
+.display-4,
+.card-title {
+  color: #033f47;
+}
+
+.btn {
+  background-color: #c00000;
+  border: #c00000;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: center;
+}
+
+.img-fluid {
+  width: 700px;
+  height: 300px;
+}
+
+.loose-heading {
+  margin: 100px 0 100px 100px;
+}
+
+.skills-card {
+  display: block;
+  padding: 0 0 50px 0;
+}
+
+.jumbotron-content {
+  width: 65%;
+  display: inline-block;
+}
+
+.jumbotron-photo {
+  width: 25%;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+}
